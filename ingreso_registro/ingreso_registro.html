@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso | Registro</title>
+    <link rel="icon" href="../imagenes/V negro.png">
+    <link rel="stylesheet" href="ingreso_registro.css">
+</head>
+<body>
+    <header>
+        <div class="izquierda">
+            <div class="logo">
+                <a href="../index.html"><img src="../imagenes/Verbiest_negro.png" alt="Verbiest logo"></a>
+            </div>
+            <ul class="links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="ingreso_registro.html">Ingreso/Registro</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="derecha">
+            <div class="nombre">
+                <h1>Verbiest</h1>
+            </div>
+            <div class="sa">
+                <h1>S.A.S</h1>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="agrupador">
+            <div class="modalwindow">
+                <h2>Ingreso</h2>
+                <form action="#">
+                    <div class="cajaingreso">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="cajaingreso">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="olvido">
+                        <label><input type="checkbox">Recordarme</label>
+                        <a href="#" class="link_olvido">¿Olvidó su contraseña?</a>
+                    </div>
+                    <button type="submit" class="btn">Ingresar</button>
+                    <div class="registro">
+                        <p>No tengo una cuenta: <a href="#" class="link_de_registro">Registrarse</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>Verbiest S.A.S | 2023</footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
